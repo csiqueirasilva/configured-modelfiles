@@ -1,0 +1,3 @@
+# Modelfile.regular
+FROM gemma3-base
+PARAMETER num_predict 500

@@ -1,0 +1,4 @@
+# Modelfile for gemma3 with zero temperature and stronger repetition penalty
+FROM gemma3:27b                          # base model :contentReference[oaicite:0]{index=0}
+PARAMETER temperature 0                 # deterministic output :contentReference[oaicite:1]{index=1}
+PARAMETER repeat_penalty 1.5            # penalize loops more strongly :contentReference[oaicite:2]{index=2}
