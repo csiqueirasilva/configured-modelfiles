@@ -1,4 +1,4 @@
 # Modelfile for gemma3 with zero temperature and stronger repetition penalty
-FROM gemma3:27b                         
+FROM gemma3:12b-it-qat                         
 PARAMETER temperature 0               
 PARAMETER repeat_penalty 2            
